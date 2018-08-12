@@ -1,4 +1,5 @@
 #!/bin/sh
 
 git pull origin master
-cp index.html /var/www/html/index.html
+rm -rf /var/www/html/*
+cp html/* /var/www/html
