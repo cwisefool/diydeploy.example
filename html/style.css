@@ -1,1 +1,2 @@
 body {margin: 0; padding: 0;}
+.success {padding: 1em; background: lightgreen; border: 1px solid #ddd; font-size: 24pt; color: black; font-weight: bold;}
