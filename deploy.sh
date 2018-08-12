@@ -1,5 +1,4 @@
 #!/bin/sh
 
-rm -rf simpledeploy.example
-git clone https://github.com/cwisefool/simpledeploy.example.git
+git pull origin master
 cp simpledeploy.example/index.html /var/www/html/index.html
