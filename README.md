@@ -3,8 +3,10 @@ Repository used for demonstrating how to perform a simple deploy using only Git 
 See deploy.sh for full deployment process. 
 
 ## Installation
-Simply git clone into desired directory. i.e. `git clone https://github.com/cwisefool/simpledeploy.example.git simpledeploy.example`
+Simply git clone into desired directory. 
+Ex: `git clone https://github.com/cwisefool/simpledeploy.example.git simpledeploy.example`
 
 ## Deployment
+From within cloned directory:
 `bash deploy.sh`
 
