@@ -1,6 +1,6 @@
 # simpledeploy.example
 Repository used for demonstrating how to perform a simple deploy using only Git and a small custom shell script. 
-See deploy.sh for full deployment process. 
+See deploy.sh for full deployment process. Deployment process automatically pulls latest version of this repository. 
 
 - Installs Apache2 web server
 - Everything in `html` is deployed to `/var/www/html`. 
