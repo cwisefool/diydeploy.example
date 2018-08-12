@@ -2,4 +2,5 @@
 
 bash before-deploy.sh
 git pull origin master
-bash after-deploy.sh
+rm -rf /var/www/html/*
+cp html/* /var/www/html
