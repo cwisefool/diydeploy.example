@@ -6,5 +6,5 @@ See deploy.sh for full deployment process.
 Simply git clone into desired directory. i.e. `git clone https://github.com/cwisefool/simpledeploy.example.git simpledeploy.example`
 
 ## Deployment
-`./deploy.sh`
+`bash deploy.sh`
 
