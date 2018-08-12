@@ -1,6 +1,5 @@
 #!/bin/sh
 
-sudo apt-get install -y apache2
+bash before-deploy.sh
 git pull origin master
-rm -rf /var/www/html/*
-cp html/* /var/www/html
+bash after-deploy.sh
